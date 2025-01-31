@@ -5,6 +5,7 @@
 - npm install
 - [http://api.weatherapi.com] //Copy the API key and paste it in the Weather.jsx file 
 - npm run dev
+  
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
