@@ -7,7 +7,7 @@ const Weather = () => {
     const [weather, setWeather] = useState(null);
 
     const getWeather = async (city) => {
-        const apiKey = "8c4d09a1edf147f4bdf62220253001"; // Replace with your WeatherAPI key
+        const apiKey = "YOUR_API_KEY"; // Replace with your WeatherAPI key
         const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
 
         try {
